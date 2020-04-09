@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126b3276-24ed-4c0d-bc72-dd7d1efd5bb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Maths/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Maths/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Maths/MathRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Maths/MathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Maths/MathServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,10 +59,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1928" />
-    <option name="y" value="306" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="-2892" />
+    <option name="y" value="459" />
+    <option name="width" value="2904" />
+    <option name="height" value="1764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,7 +152,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="306" width="1936" height="1176" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

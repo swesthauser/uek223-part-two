@@ -18,7 +18,19 @@ public class MathController {
 
     @GetMapping("multiplication/{a}/{b}")
     public @ResponseBody
-    ResponseEntity<Integer> multiply(@PathVariable int a, @PathVariable int b){
+    ResponseEntity<Double> multiply(@PathVariable double a, @PathVariable double b){
         return new ResponseEntity<>(mathService.multiplicate(a, b), HttpStatus.OK);
+    }
+
+    @GetMapping("addition/{a}/{b}")
+    public @ResponseBody
+    ResponseEntity<Double> sum(@PathVariable double a, @PathVariable double b){
+        return new ResponseEntity<>(mathService.sum(a, b), HttpStatus.OK);
+    }
+
+    @GetMapping("subtract/{a}/{b}")
+    public @ResponseBody
+    ResponseEntity<Double> subtract(@PathVariable double a, @PathVariable double b){
+        return new ResponseEntity<>(mathService.subtract(a, b), HttpStatus.OK);
     }
 }

@@ -2,5 +2,7 @@ package ch.noseryoung.course223.domainModels.Math;
 
 public interface MathService {
 
-    public int multiplicate(int x, int z);
+    public double multiplicate(double x, double z);
+    public double sum(double x, double z);
+    public double subtract(double x, double z);
 }
