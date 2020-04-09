@@ -1,4 +1,4 @@
-package ch.noseryoung.course223.domainModels.Maths;
+package ch.noseryoung.course223.domainModels.Math;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/maths")
 public class MathController {
 
-    MathService mathService;
+    private MathService mathService;
 
     @Autowired
     public MathController(MathService mathService) {
