@@ -34,14 +34,15 @@ public class SalaryOperationsHandler implements SalaryOperationService{
 
 
     // sorted list asc and desc
-    public Optional<User> assessSalaries(List<User> salaries, SalaryOperationsSingleResult salaryOperationsSingleResult){
+   /* public Optional<User> assessSalaries(List<User> salaries, SalaryOperationsSingleResult salaryOperationsSingleResult){
         return salaryOperationsSingleResult.assessSalaries(salaries);
     }
 
+    */
+
     @Override
     public User getBestEarningUser(List<User> userList) {
-        SalaryOperationsSingleResult bestEarningUser = (List<User> salaries) -> salaries.stream().sorted(Comparator.comparing(User::getSalary).reversed()).findFirst();
-        return findAllThrow(bestEarningUser.assessSalaries(userList));
+        return findAllThrow(userList.stream().sorted(Comparator.comparing(User::getSalary).reversed()).findFirst());
     }
 
 
