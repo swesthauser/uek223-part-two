@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126b3276-24ed-4c0d-bc72-dd7d1efd5bb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/Math/MathServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/SalaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/SalaryOperationsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/SalaryOperationsMultipleResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/SalaryOperationsSingleResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/User/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/User/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/User/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course223/src/main/java/ch/noseryoung/course223/domainModels/User/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +64,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-2892" />
-    <option name="y" value="459" />
-    <option name="width" value="2904" />
-    <option name="height" value="1764" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="3863" />
+    <option name="height" value="2123" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,7 +108,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/helloworld2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lambdas" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,22 +149,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586422016441</updated>
-      <workItem from="1586422019285" duration="2396000" />
+      <workItem from="1586422019285" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2396000" />
+    <option name="totallyTimeSpent" value="2431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="306" width="1936" height="1176" extended-state="7" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3347548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -168,7 +175,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26734218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
