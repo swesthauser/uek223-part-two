@@ -111,6 +111,6 @@ public class UserServiceImpl implements UserService {
     }
 
 
-    // Question to be solved: What is a more ideal way of retrieving above values?
+    // Question to be solved: What is a more ideal way of retrieving above values? Native Query
 }
 
